@@ -10,6 +10,14 @@ SQL-based analysis of cricket batting data across ODI, T20, and Test formats wit
 This project focuses on analyzing **cricket batting statistics** across three major formats – **ODI, T20, and Test** – using **SQL**.  
 By running structured queries, the project uncovers meaningful insights into player performances, rankings, and comparisons.  
 
+## 📑 Datasets Used  
+This project is based on cricket batting data collected from publicly available sources.  
+The dataset is structured into three main tables:  
+
+- **`odi_data`** – Batting statistics of players in One Day Internationals (ODIs)  
+- **`t20`** – Batting statistics of players in T20 Internationals  
+- **`test`** – Batting statistics of players in Test matches 
+
 ## 🔍 Key Insights & Queries  
 - **Top performers** – runs, averages, strike rates, hundreds, fifties.  
 - **Comparisons** – Virat Kohli vs Rohit Sharma, Kohli vs Steve Smith, and more.  
