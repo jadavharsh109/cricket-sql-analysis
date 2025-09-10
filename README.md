@@ -32,3 +32,15 @@ SELECT o.Player, o.SR AS ODI_SR, t.SR AS T20_SR
 FROM odi_data o
 JOIN t20 t ON o.Player = t.Player
 ORDER BY (o.SR + t.SR) DESC;
+```
+## 📂 Applications  
+- ⚡ **Sports Analytics & Performance Tracking** – Analyze batting stats to identify top performers and trends.  
+- 🏏 **Player Comparisons & Scouting** – Compare players across formats for talent identification.  
+- 📊 **Historical Data Exploration** – Explore career statistics and records in ODI, T20, and Test formats.  
+- 📈 **Building Dashboards with BI Tools** – Extend queries into visual dashboards for interactive insights.  
+
+## 🚀 Future Enhancements  
+- 🔗 Integration with **Python (Pandas, Matplotlib, Seaborn)** for deeper visualizations.  
+- 📊 **Power BI Dashboards** for interactive and shareable cricket analytics.  
+- 🤖 Machine Learning models for **performance prediction** and trend analysis.  
+
